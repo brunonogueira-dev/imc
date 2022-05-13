@@ -1,5 +1,8 @@
 var titulo = document.querySelector(".titulo");
-titulo.textContent = "Aparecida Nutricionista";
+titulo.textContent = "Imc - Calculadora";
+titulo.addEventListener('click', function (){
+   titulo.style.color = "lightcoral";
+});
 
 var pacientes = document.querySelectorAll(".paciente");
 
